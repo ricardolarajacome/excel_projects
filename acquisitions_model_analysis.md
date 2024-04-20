@@ -19,8 +19,6 @@ Based on the provided information, the net income of West Ridge North for the la
 
 Real estate investors often employ the capitalization rate (cap rate) as a key metric to gauge the profitability of their investments. The cap rate is calculated by dividing the Net Operating Income (NOI) by the Property Value. Streit has set a target cap rate of 6.00% for its investments.
 
-<img width="591" alt="Screenshot 2024-04-20 at 3 06 49 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/5eb450a5-0e9c-4577-8cec-bb0794031932">
-
 To estimate the value of West Ridge North, we utilized the formula:
 
 \[ \text{Property Value} = \frac{\text{Net Operating Income}}{\text{Cap Rate}} \]
@@ -30,6 +28,9 @@ In order to facilitate ease of reference and consistency in our financial model,
 The purchase price of West Ridge North, calculated in cell F2, incorporates the AcquisitionCapRate named range along with the net operating income from our previous analysis. It's crucial to note that we use net operating income, not net income, in this calculation.
 
 In our financial model, Year 0 denotes the acquisition phase, during which only acquisition costs are accounted for, with no additional income or expenses incurred.
+
+<img width="919" alt="Screenshot 2024-04-20 at 3 11 47 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/ef39e383-14a4-4e4d-b10a-025a072bbe48">
+
 
 Based on our calculations, the purchase price of West Ridge North, with a cap rate of 6.00%, amounts to approximately $7,288,683. Since this outlay represents an expense, it is formatted as a negative value.
 

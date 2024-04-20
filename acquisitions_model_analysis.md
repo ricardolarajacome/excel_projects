@@ -38,22 +38,21 @@ Despite the substantial initial investment of $7.3 million, the acquisition of W
 
 <img width="254" alt="Screenshot 2024-04-20 at 3 15 19 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/99c60a1e-d564-4f2e-ac7e-6698f95f6114">
 
-In conclusion, the acquisition of West Ridge North presents Streit with an opportunity to leverage its expertise and resources to revitalize the property and capitalize on the burgeoning real estate market in Downtown Detroit.
+In conclusion, it seems the acquisition of West Ridge North presents Streit with an opportunity to leverage its expertise and resources to revitalize the property and capitalize on the burgeoning real estate market in Downtown Detroit. Although we can continue improving the analysis by adding some key metrics such as Net Present Value and Internal Rate of Return.
 
 **3. Forecasting Rental Income**
 
 Financial models are crucial for analyzing investments over time, relying on assumptions to estimate future revenue and expenses. Growth rates are often employed to project increases in revenue and expenses. Using the formula `[Previous Value] * (1 + [Rate])`, we can determine the future value of an item with a growth rate.
 
-To enhance usability, we've formatted the worksheet for clarity. We've created a custom number formatting for the periods in cells D16:N16 to display "Year " before the numbers.
+To enhance usability, we've formatted the worksheet for clarity. I've created a custom number formatting for the periods in cells D16:N16 to display "Year " before the numbers.
 
 Streit plans to remodel all units in the first year and anticipates renting units starting in Year 2 at $2,300 per month. Rent is expected to increase annually according to the Rent Growth % assumption.
 
-To forecast rental income for the next 10 years:
-- Enter $2300 in cell F19 to specify rental income for Year 2.
-- Use the formula in cell G19 to forecast rental income: `[Previous Value] * (1 + [Rent Growth %])`, ensuring to lock the cell reference to Rent Growth %.
-- Drag this formula to N19 to complete the analysis up to Year 10.
+To forecast rental income for the next 10 years I have entered $2300 in cell F19 to specify rental income for Year 2. Then I have used the formula in cell G19 to forecast rental income: `[Previous Value] * (1 + [Rent Growth %])`, ensuring to lock the cell reference to Rent Growth %. And finally I have dragged this formula to N19 to complete the analysis up to Year 10.
 
-Now, we calculate the net potential rent for each year, representing the total potential rent earned by the entire property annually. Net potential rent is obtained by multiplying the monthly rent (cell F19) by the Units named range and then by 12 to convert to an annual figure. This calculation is dragged across to N18 for analysis up to Year 10.
+Now, I calculate the net potential rent for each year, representing the total potential rent earned by the entire property annually. Net potential rent is obtained by multiplying the monthly rent (cell F19) by the Units named range and then by 12 to convert to an annual figure. This calculation is dragged across to N18 for analysis up to Year 10.
+
+<img width="1183" alt="Screenshot 2024-04-20 at 3 27 11 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/01b84478-f69a-471c-b56e-ec75c30c033f">
 
 The estimated Net Potential Rent in Year 10 is $3,262,222, indicating significant growth over the 10-year period, thanks to the planned renovations and rent increases.
 

@@ -34,8 +34,6 @@ In our financial model, Year 0 denotes the acquisition phase, during which only 
 
 Based on our calculations, the purchase price of West Ridge North, with a cap rate of 6.00%, amounts to approximately $7,288,683. Since this outlay represents an expense, it is formatted as a negative value.
 
-<img width="91" alt="Screenshot 2024-04-20 at 3 17 13 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/02f771f7-4cf1-408b-86a8-b14fa436426d">
-
 Despite the substantial initial investment of $7.3 million, the acquisition of West Ridge North aligns with Streit's objective of achieving a 6% capitalized return, thereby positioning it as a financially sound investment opportunity.
 
 <img width="254" alt="Screenshot 2024-04-20 at 3 15 19 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/99c60a1e-d564-4f2e-ac7e-6698f95f6114">

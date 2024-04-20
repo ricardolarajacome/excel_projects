@@ -58,19 +58,26 @@ The estimated Net Potential Rent in Year 10 is $3,262,222, indicating significan
 
 **4. Predicting Sales Price**
 
-Real estate investors often aim to sell properties within 5-10 years to generate cash for further investments and portfolio diversification. To analyze the predicted sales price of West Ridge North during any year of our analysis, we'll use the cap rate formula: `[Property Value] = [Net Operating Income] / [Cap Rate]`.
+Real estate investors often aim to sell properties within 5-10 years to generate cash for further investments and portfolio diversification. To analyze the predicted sales price of West Ridge North during any year of our analysis, I've used the cap rate formula: `[Property Value] = [Net Operating Income] / [Cap Rate]`.
 
 By utilizing HLOOKUP() to dynamically lookup the net operating income for the specified holding period (Years), we determine that Year 10 yields the highest sales price due to substantial renovations and rent growth, making it an attractive asset for potential buyers.
 
+<img width="745" alt="Screenshot 2024-04-20 at 3 29 34 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/7c94fc15-88bb-4fa0-88b0-ab0571bf7d57">
+
 **5. Scenario Analysis**
 
-Streit's Chief Investment Officer seeks to explore various outcomes using the Scenario Manager tool in Excel. By comparing scenarios, we can assess the net operating income for Year 10 across different assumptions, providing valuable insights for decision-making.
+In case Streit's seeks to explore various outcomes I have used the Scenario Manager tool in Excel. By comparing scenarios, I can assess the net operating income for Year 10 across different assumptions, providing valuable insights for decision-making.
+
+<img width="894" alt="Screenshot 2024-04-19 at 10 23 46 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/d64254ff-1ed7-444e-901b-2319e2bfb356">
 
 Upon reviewing the scenarios, the difference between the Expected Rent and High Rent scenarios for Year 10 is $717,739.
 
 **6. Goal Seek Analysis**
 
 Goal Seek enables us to determine the Exit Cap Rate required for the Sell Price to reach $100M. After running Goal Seek, we find that an Exit Cap Rate of 5.00% is needed for the Sell Price to be $100M.
+
+<img width="239" alt="Screenshot 2024-04-20 at 3 35 32 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/46439cef-71a6-42a3-8848-5e63b07bfaa0">
+
 
 **7. Sensitivity Analysis**
 

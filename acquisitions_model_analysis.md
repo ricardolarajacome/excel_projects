@@ -83,21 +83,36 @@ Goal Seek enables us to determine the Exit Cap Rate required for the Sell Price 
 
 A sensitivity analysis on Rent Growth % reveals the impact on net operating income. At a 5.00% rent growth rate, net operating income is $2,954,983, while at a 10.00% rate, it increases to $4,519,938.
 
+<img width="563" alt="Screenshot 2024-04-20 at 3 37 26 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/236e05c4-c62c-4a74-ac00-1f161a26660c">
+
 **8. Return on Investment (ROI)**
 
-We calculate the ROI for West Ridge North, finding it to be 857.61%. Although impressive, this ROI reflects a long-term investment over 10 years.
+We calculate the ROI for West Ridge North, finding it to be 857.61%. 
+
+<img width="455" alt="Screenshot 2024-04-20 at 3 39 16 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/729461d0-48c2-4557-affa-594eac452275">
+
+Although impressive, this ROI reflects a long-term investment over 10 years.
 
 **9. Benchmark Analysis**
 
 Using benchmarks such as future value and present value, we assess the investment's performance. West Ridge North exceeds the future value benchmark, indicating a successful investment. Additionally, the present value of the investment, based on a 20.00% benchmark rate, is $11,365,424, demonstrating the project's viability compared to alternative investment opportunities.
 
+<img width="458" alt="Screenshot 2024-04-20 at 3 40 26 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/7df7a695-c963-4373-83d6-1dd498f3555f">
+
+
 **10. Net Present Value Analysis**
 
-The Chief Investment Officer has tasked us with determining the net present value (NPV) of the total net income earned over the lifetime of West Ridge North. NPV() function simplifies this calculation.
+In order to determine the net present value (NPV) of the total net income earned over the lifetime of West Ridge North. NPV() function simplifies this calculation. On a separate sheet we can proceed with our calculations:
 
-The NPV for West Ridge North is approximately $7.4M. Since this value is greater than 0, West Ridge North would be a preferable investment compared to another investment with a 20% return.
+<img width="1436" alt="Screenshot 2024-04-20 at 2 42 57 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/2557f88e-1b91-42a9-ab52-ce7a55f9ad40">
+ 
+Finally using the formula: =NPV(J5,E53:N53)+D53 We can see that the NPV for West Ridge North is approximately $7.4M. Since this value is greater than 0, West Ridge North would be a preferable investment compared to another investment with a 20% return.
 
-However, we encountered a limitation with NPV(), as it assumed cash flows started in Year 1 rather than Year 0. To address this issue, we utilized XNPV(), a more precise function that considers the timing of cash flows based on dates.
+<img width="1311" alt="Screenshot 2024-04-20 at 3 44 06 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/b23301ce-5ff0-4a34-8a17-af2618cca02b">
+
+However, we encountered a limitation with NPV(), as it assumed cash flows started in Year 1 rather than Year 0. To address this issue, we utilized XNPV() in the formula =XNPV(J5,D53:N53,D15:N15). This is a more precise function that considers the timing of cash flows based on dates.
+
+<img width="554" alt="Screenshot 2024-04-20 at 3 45 51 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/9381abbd-4d98-4a4e-a9d8-fbe897bf2f1b">
 
 The XNPV of the Net Income cash flows is calculated to be $7,372,047, providing a more accurate representation of the project's profitability.
 
@@ -107,8 +122,15 @@ The internal rate of return (IRR) is a crucial metric to assess the project's pr
 
 With the standard IRR calculation, we find the IRR to be 29.78%. However, since we have dates associated with each cash flow, XIRR() would provide a more precise result.
 
+<img width="1240" alt="Screenshot 2024-04-20 at 2 00 34 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/c2ed8c1b-0a5f-4fda-ae75-bea46b4571bf">
+
 The IRR using XIRR() is 29.75%, indicating an annual rate of return of 29.75%. To further analyze the project's viability, we set the benchmark rate equal to the IRR.
 
-Updating the benchmark rate in cell J5 to match the XIRR, we find that the value of XNPV in J10 is 0. This aligns with expectations, as the discount rate in NPV often represents the project's cost. If the project cost equals the return, there would be no real financial gain.
+<img width="578" alt="Screenshot 2024-04-20 at 3 48 03 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/c5b00ac7-9984-465b-910b-cdf0e2d96775">
+
+Updating the benchmark rate in cell J5 to match the XIRR, we find that the value of XNPV in J10 is 0. This aligns with expectations, as the discount rate in NPV often represents the project's cost. If the project cost equals the return, there would be no real financial gain. In conclusion, while the investment initially appeared promising, the analysis reveals it to be a project devoid of significant financial gain
+
+<img width="848" alt="Screenshot 2024-04-20 at 2 05 37 AM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/01c79db0-0398-4045-92ab-f6aad7b0c96b">
+
 
 

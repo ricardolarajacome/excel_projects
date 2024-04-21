@@ -109,14 +109,6 @@ There were 5,650 total visits with an ESI score of 1-2.
 21.8% of after-hours visits with an ESI score were classified as high severity (ESI 1-2), similar but slightly lower than the overall percentage of high-severity visits at any arrival date/time (23.7%).
 A total of 2,170 visits occurred after hours.
 
-## Classifying EWS Scores
-In the dept_b_master query, add new columns to classify heart rate values (triage_vital_hr), systolic blood pressure values (triage_vital_sbp), and respiratory rate values (triage_vital_rr) based on EWS scores. Create a new column for the total EWS score by summing up the individual scores. Sort the EWS scores in descending order.
-
-<img width="868" alt="Screenshot 2024-04-20 at 10 28 17 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/e7dbdc5f-f547-4932-b9e0-1d514afeae89">
-
-## Insight and Analysis
-The average age for patients with an EWS of 5 or above was 53. This information will be valuable for the clinical team to understand about patients requiring critical assessment in the emergency room. By classifying heart rate, systolic blood pressure, and respiratory rate values based on EWS scores, we provided valuable insight. Notably, the average age for patients with an EWS of 5 or above was 53, which is crucial information for the clinical team.
-
-In conclusion, this analysis provides valuable insights into emergency department operations, aiding in resource allocation, staffing, and patient care prioritization.
+In summary, the pivot table analysis sheds light on emergency department operations, providing valuable insights for resource allocation, staffing, and patient care prioritization. These findings not only inform strategic decisions but also directly contribute to enhancing efficiency and the quality of healthcare delivery in the hospital setting.
 
 

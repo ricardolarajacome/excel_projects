@@ -1,1 +1,1 @@
-#Combining Admission and Discharge Data in the Emergency Department
+# Combining Admission and Discharge Data in the Emergency Department

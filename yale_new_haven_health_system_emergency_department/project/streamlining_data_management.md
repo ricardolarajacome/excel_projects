@@ -30,7 +30,23 @@ Finally, the combined queries are loaded into the Excel Workbook, revealing a to
 
 
 ## Analysis of Emergency Severity Index (ESI) Scores: 
-To comprehend the distribution of ESI scores across the data collection period for department b, a breakdown of triage scores by total visits is imperative. Given that ESI levels range from 1 to 5, with level 1 signifying the highest urgency, a meticulous analysis aids in resource allocation and staffing. The initial step involves importing the dept_b_triage_vitals.csv file and merging it with the dept_b_master query utilizing the 'Merge Queries' function. Subsequently, a Pivot Table is created to ascertain total PatientID counts by ESI level, culminating in the identification that 69% of total emergency department visits exhibit an ESI score of 3 or lower.
+To comprehend the distribution of ESI scores across the data collection period for department b, a breakdown of triage scores by total visits is imperative. Given that ESI levels range from 1 to 5, with level 1 signifying the highest urgency, a meticulous analysis aids in resource allocation and staffing. The initial step involves importing the dept_b_triage_vitals.csv file and merging it with the dept_b_master query utilizing the 'Merge Queries' function. 
+
+<img width="1193" alt="Screenshot 2024-04-20 at 7 17 46 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/49d22272-afd0-45cb-a8e7-d05b65991661">
+
+<img width="658" alt="Screenshot 2024-04-20 at 7 19 47 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/80f14400-9622-4224-8cd7-22ccb83ae162">
+
+
+Subsequently, a Pivot Table is created to ascertain total PatientID counts by ESI level, culminating in the identification that 69% of total emergency department visits exhibit an ESI score of 3 or lower.
+
+<img width="1440" alt="Screenshot 2024-04-20 at 9 18 45 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/47f9dc1a-1e11-4eb9-b5d3-267e63bb7e58">
 
 ## Examination of Abdominal Pain Presentations: 
-The project extends to scrutinize the surge in patients presenting with abdominal pain in the emergency department. This involves combining emergency visit data with visit chief complaint data to gauge any correlations and to assess the admission rate for resource planning. Admission Rate, computed as the percentage of total visits with a disposition of "admit" out of total emergency department visits, is instrumental in resource management. The process commences with the importation of the dept_b_chief_complaint.csv file, followed by pivoting the Attribute column and conducting an inner join to create a new query labeled "dept_b_abdominalpain". Subsequent analysis reveals an admission rate of 38% for patients arriving at the emergency department with the chief complaint of abdominal pain. Out of 2,444 emergency department visits with the chief complaint of Abdominal Pain, 940 (38%) warranted admission for further care, underscoring the significance of this statistic for ongoing monitoring and discussion.
+The project extends to scrutinize the surge in patients presenting with abdominal pain in the emergency department. This involves combining emergency visit data with visit chief complaint data to gauge any correlations and to assess the admission rate for resource planning. Admission Rate, computed as the percentage of total visits with a disposition of "admit" out of total emergency department visits, is instrumental in resource management. The process commences with the importation of the dept_b_chief_complaint.csv file, followed by pivoting the Attribute column and conducting an inner join to create a new query labeled "dept_b_abdominalpain". 
+
+<img width="722" alt="Screenshot 2024-04-20 at 7 42 36 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/94cc97c1-d4e8-4b03-99b7-3fd4a4a56780">
+
+Subsequent analysis reveals an admission rate of 38% for patients arriving at the emergency department with the chief complaint of abdominal pain. Out of 2,444 emergency department visits with the chief complaint of Abdominal Pain, 940 (38%) warranted admission for further care, underscoring the significance of this statistic for ongoing monitoring and discussion.
+
+<img width="1440" alt="Screenshot 2024-04-20 at 9 23 34 PM" src="https://github.com/ricardolarajacome/excel_projects/assets/128415592/693e2759-5f95-48c5-be37-5f7b89474d58">
+
